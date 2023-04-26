@@ -6,14 +6,14 @@ let transporter = nodemailer.createTransport({
   port: 587,
   secure: false,
   auth: {
-    user: "testmail@gmail.com", // gmail ID
-    pass: "password" // gmai account password
+    user: "yadukrishna035@gmail.com", // gmail ID
+    pass: "qwilmlwimrokxshy" // gmai account password
   }
 });
 
 let mailOptions = {
-  from: "testmail@gmail.com", //sender 
-  to: "reciever@gmail.com", //reciever
+  from: "yadukrishna035@gmail.com", //sender 
+  to: "yaduk946@gmail.com", //reciever
   subject: "Nodemailer test mail",
   text: "The code executed succesfully",
 };
